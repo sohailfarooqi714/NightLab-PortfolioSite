@@ -89,6 +89,14 @@ nav ul li
   height: 3rem !important;
 }
 
+@media(max-width: 768px)
+{
+  .navbar-brand
+  {
+    width: 7rem;
+  }
+}
+
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus
 {
   border-bottom: 0.2rem solid rgb(69,111,182,255) ;
@@ -145,6 +153,18 @@ nav ul li
   color: rgb(224,224,244);
 }
 
+@media(max-width: 768px)
+{
+  .main-info h1
+  {
+    font-size: 1.7rem !important;
+  }
+  .typed-text
+  {
+    font-size: 1.3rem !important;
+  }
+}
+
 /*****************HEADER MAIN OFFER BUTTON*****************/
  
 .btn-main-offer
@@ -156,3 +176,11 @@ nav ul li
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   margin: 2rem;
 }
+
+.btn-main-offer:hover
+{
+  text-decoration: none;
+  background-color: greenyellow;
+  transition: .2s ease-in-out;
+}
+
