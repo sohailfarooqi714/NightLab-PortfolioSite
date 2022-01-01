@@ -11,7 +11,7 @@ export const Navbar = () => {
 
                 <a className="navbar-brand" href="#"><img className = "logo" src={logo} alt="logo..." /></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    < FontAwesomeIcon icon={faBars} style = {{color: "#456fb6"}}/>
+                    < FontAwesomeIcon icon={faBars} style = {{color: "#fff"}}/>
                 </button>
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
