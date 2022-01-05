@@ -100,14 +100,6 @@ nav ul li
   height: 3rem !important;
 }
 
-@media(max-width: 768px)
-{
-  .navbar-brand
-  {
-    width: 7rem;
-  }
-}
-
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus
 {
   border-bottom: 0.2rem solid rgb(69,111,182,255) ;
@@ -166,18 +158,6 @@ nav ul li
   color: rgb(224,224,244);
 }
 
-@media(max-width: 768px)
-{
-  .main-info h1
-  {
-    font-size: 1.7rem !important;
-  }
-  .typed-text
-  {
-    font-size: 1.3rem !important;
-  }
-}
-
 /*****************HEADER MAIN OFFER BUTTON*****************/
  
 .btn-main-offer
@@ -211,6 +191,7 @@ nav ul li
   background-size: cover;
   background-repeat: repeat;
   background-position:center;
+  background-color: rgb(243, 243, 243);
 }
 
 .photo-wrap
@@ -246,40 +227,6 @@ nav ul li
   text-align: justify;
   font-stretch: semi-expanded;
   animation: linear;
-}
-
-@media (max-width: 468px)
-{
-  .profile-img
-  {
-    width: 10rem;
-  }  
-  .about-heading
-  {
-    font-size: 1.3rem;
-  }
-  .persona1-description
-  {
-    font-size: 0.8rem;
-  }
-}
-
-@media (min-width: 992px)
-{
-  .about-wrapper 
-  {
-      background-image: url(aboutme-bg-desktop.png);
-      background-size: cover;
-  }
-}
-
-@media (max-width: 992px) 
-{
-  .about-wrapper 
-  {
-      background-image: url(aboutme-bg-mobile.png);
-      background-size: cover;
-  }
 }
 
 /*************Services***************/
@@ -327,7 +274,7 @@ nav ul li
   border-top: 1px solid var(--primary-blue);
   border-right: 1px solid var(--primary-blue);
   border-left: 1px solid var(--primary-blue);
-  padding: 0.625rem;
+  padding: 0.625rem;  
   margin-bottom: 1.875rem;
   background: rgb(240, 239, 239);
   border-radius: 2%;
@@ -356,4 +303,234 @@ nav ul li
   color:var(--primary-lightblue);
   transition: 0.35s ease-in-out;
 }
+
+/*************Landing Page***************/
+
+.landing-wrapper
+{
+  margin-top: 6rem;
+  position: relative;
+  border-top-right-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position:center;
+}
+
+.landing-text
+{
+  margin-top: 10px;
+}
+
+.landing-img
+{
+  height: 8rem;
+  width:  28rem;
+}
+
+/*************Technologies Page***************/
+
+.technologies
+{
+  text-align: center;
+  background-color: solid var(--primary-lightgray);
+  margin-bottom: 5.875rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+  font-size: 0.8rem;
+  position: relative;
+}
+
+.technologies .box-1
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(175, 167, 218);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.technologies .box-2
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(157, 204, 223);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.technologies .box-3
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(112, 132, 187);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.technologies .box-4
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(150, 158, 221);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.technologies .box-5
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(192, 166, 131);
+  border-radius: 20px 20px 20px 20px;
+}
+
+.technologies .box-6
+{
+  height: 10rem;
+  padding: 0.625rem;  
+  margin-bottom: 1.875rem;
+  background: rgb(185, 185, 185);
+  border-radius: 20px 20px 20px 20px;
+  
+}
+
+.technologies .box-1:hover
+{
+  background: rgb(163, 147, 255);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .box-2:hover
+{
+  background: rgb(79, 199, 247);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .box-3:hover
+{
+  background: rgb(139, 154, 240);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .box-4:hover
+{
+  background: rgb(104, 114, 207);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .box-5:hover
+{
+  background: rgb(226, 177, 112);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .box-6:hover
+{
+  background: rgb(206, 206, 206);
+  transition: 0.25s ease-in-out;
+}
+
+.technologies .icon
+{
+  width: 3rem;
+  height: 3rem;
+  top: 50%;
+  left: 50%;
+}
+
+/*************Media Queries***************/
+@media (max-width: 468px)
+{
+  .profile-img
+  {
+    width: 10rem;
+  }  
+  .about-heading
+  {
+    font-size: 1.3rem;
+  }
+  .persona1-description
+  {
+    font-size: 0.8rem;
+  }
+
+  /***Landing Page Media Queries***/
+  .landing-text 
+  {
+    font-size: 0.6rem;
+  }
+  .landing-heading
+  {
+    font-size: 0.6rem;
+  }
+  .landing-img
+  {
+    width: 17rem;
+    height: 6rem;
+  }  
+    /***Technologies Page Media Queries***/
+  .technologies 
+  {
+    font-size: 70%;
+  }
+}
+
+@media(max-width: 768px) 
+{
+  .navbar-brand
+  {
+    width: 7rem;
+  }
+  .main-info h1
+  {
+    font-size: 1.7rem !important;
+  }
+  .typed-text
+  {
+    font-size: 1.3rem !important;
+  }
+  .technologies .box-1
+  {
+    height: 80%;
+  }
+  .technologies .box-2
+  {
+    height: 80%;
+  }
+  .technologies .box-3
+  {
+    height: 80%;
+  }
+  .technologies .box-4
+  {
+    height: 80%;
+  }
+  .technologies .box-5
+  {
+    height: 80%;
+  }
+  .technologies .box-6
+  {
+    height: 80%;
+  }
+} 
+
+@media (max-width: 1200px) 
+{
+  .technologies 
+  {
+    font-size: 70%;
+  }
+}
+
+@media (max-width: 992px) 
+{
+  .technologies 
+  {
+    font-size: 55%;
+  }
+}
+
 

@@ -8,7 +8,7 @@ function About() {
             <div className="container py-5">
                 <div className="row">
                         <h1 className="about-heading" align="center">
-                            About Us
+                            About 
                         </h1>
                     <div className="col-lg-6 col-xm-12">
                         <div className="photo-wrap mb-3">
@@ -18,7 +18,7 @@ function About() {
                     <div className="col-lg-6 col-xm-12">
                         <div className="persona1-description">
                             <h4 className="persona1-name" align = "Center">
-                                Sohail Ali Farooqi
+                                Sohail Farooqi
                             </h4>
                             <p>
                                 Hi there! I am Sohail. I completed my undergrad in Computer Science with a majors in Software Development in 2019.
