@@ -14,7 +14,7 @@ export const Technologies = () => {
        
         <div className="technologies">
             <div className="technologies-info">
-                        <h2 className="py-5">Technologies</h2>
+                        <h3 className="py-5">Technologies</h3>
                             <div className="container">
                                 <div className="row">
                                     

@@ -7,9 +7,9 @@ function About() {
       <div className="about-wrapper">
             <div className="container py-5">
                 <div className="row">
-                        <h1 className="about-heading" align="center">
+                        <h2 className="about-heading" align="center">
                             About 
-                        </h1>
+                        </h2>
                     <div className="col-lg-6 col-xm-12">
                         <div className="photo-wrap mb-3">
                             <img className="profile-img" src={author} alt="author.." />
@@ -21,9 +21,9 @@ function About() {
                                 Sohail Farooqi
                             </h4>
                             <p>
-                                Hi there! I am Sohail. I completed my undergrad in Computer Science with a majors in Software Development in 2019.
+                                Hi there! I am Sohail. Driven by my enthusiasm of gaining knowledge I pursued an undergrad in Computer Science with a majors in Software Development.
                                 Since then I have been working in the software industry closely with clients. My passion and expertise have been 
-                                towards (but not limited to) game development. I leverage Corona SDK/Solar 2D, Unity 2D/3D and Unreal Engine to create 
+                                towards applications development, more specifically game development. I leverage Solar 2D, Unity technologies and Unreal Engine to create 
                                 interactive and engaging experiences for desktops, browsers and mobile devices. Before diving into the design and development 
                                 it is important for me that the idea proposed has been clearly inked, thought out and well communicated. A game design 
                                 document would be ideal before we start diving into it's development. I will discuss the details of your design with
