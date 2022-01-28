@@ -12,21 +12,24 @@ import UnityIcon from "../Unity-Icon.png";
 export const Technologies = () => {
     return (
        
-        <div className="technologies">
+        <div id="Technologies" className="technologies">
             <div className="technologies-info">
                         <h3 className="py-5">Technologies</h3>
                             <div className="container">
                                 <div className="row">
                                     
                                             <div className="col-md-4 col-sm-12">
+                                                
                                                     <div className="box-1">
+                                                        <a href="https://www.adobe.com/products/xd.html" target="_blank">
                                                         <div className="tech-img"><img className="icon" src={AdobexdIcon} alt="Adobe XD logo..." /></div>
+                                                        </a>
                                                         <h5 className = "technologies-heading">Adobe XD</h5>
                                                         <p>Adobe XD is a powerful vector-based experience design platform that gives teams 
                                                             the tools they need to craft the world's best experiences collaboratively.
                                                         </p>
                                                     </div>
-                                                </div>
+                                            </div>
 
                                                 <div className="col-md-4 col-sm-12">
                                                     

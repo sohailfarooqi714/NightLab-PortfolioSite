@@ -6,7 +6,7 @@ import { faDesktop ,faFileCode, faGamepad, faMobile, faPen, faTrademark } from '
 
 const services = () => {
     return (
-        <div className="services">
+        <div id="Services" className="services">
             <div className="services-info">
                 <h2 className="py-5">Services</h2>
                     <div className="container">

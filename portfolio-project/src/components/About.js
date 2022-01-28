@@ -4,7 +4,7 @@ import author from "../me.jpg";
 
 function About() {
   return (
-      <div className="about-wrapper">
+      <div id="About" className="about-wrapper">
             <div className="container py-5">
                 <div className="row">
                         <h2 className="about-heading" align="center">

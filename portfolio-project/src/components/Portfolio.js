@@ -4,7 +4,7 @@ import Dastgyr from "../USER-JOURNEY.png";
 
 const Portfolio = () => {
     return (
-        <div className="portfolio-wrapper">
+        <div id="Portfolio" className="portfolio-wrapper">
             <div className="container">
                 <div className="row">
 

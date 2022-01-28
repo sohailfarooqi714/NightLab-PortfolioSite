@@ -121,11 +121,12 @@ nav ul li
 
 .header-wrapper
 {
+  margin-top: 4rem;
   position: relative;
   background: url(website-background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 92vh;
 }
 
 .main-info
@@ -183,7 +184,7 @@ nav ul li
 
 .about-wrapper
 {
-  margin-top: 6rem;
+  margin-top: 1pt;
   position: relative;
   border-top-right-radius: 0rem;
   border-bottom-left-radius: 0rem;
@@ -333,14 +334,14 @@ nav ul li
 {
   text-align: center;
   background-color: solid var(--primary-lightgray);
-  margin-bottom: 4rem;
+  margin-bottom: 3.5rem;
   margin-right: 2rem;
   margin-left: 2rem;
   font-size: 0.8rem;
   position: relative;
 }
 
-.technologies .box-1
+.technologies .box-1 
 {
   height: 10rem;
   padding: 0.625rem;  
