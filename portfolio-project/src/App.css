@@ -440,10 +440,22 @@ nav ul li
   left: 50%;
 }
 
-.technologies .technologies-heading
+.technologies .technologies-heading 
 {
   border-bottom: 1px solid var(--primary-dark);
+  color: black;
 }
+
+.technologies a
+{ 
+  text-decoration: none;
+}
+
+.technologies p
+{ 
+  color: black;
+}
+
 
 /*************Portfolio Page***************/
 
