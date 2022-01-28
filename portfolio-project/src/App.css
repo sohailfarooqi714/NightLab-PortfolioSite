@@ -440,6 +440,11 @@ nav ul li
   left: 50%;
 }
 
+.technologies .technologies-heading
+{
+  border-bottom: 1px solid var(--primary-dark);
+}
+
 /*************Portfolio Page***************/
 
 .portfolio-wrapper
