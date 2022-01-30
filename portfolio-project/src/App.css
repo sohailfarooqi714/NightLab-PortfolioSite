@@ -212,6 +212,7 @@ nav ul li
 
 .about-heading
 {
+  margin-top: 4rem !important;
   color: rgb(69,111,182,255);
   text-transform: uppercase;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -476,6 +477,14 @@ nav ul li
   color: rgb(69,111,182,255) ;
 }
 
+.portfolio-wrapper h5
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  font-style: normal;
+}
+
 .portfolio-wrapper .portfolio-image
 {
   width: 36rem !important;
@@ -491,6 +500,50 @@ nav ul li
   margin: 1rem;
   padding: 1rem;
 }
+
+
+/*************Portfolio Carousel *********/
+.carousel-image
+{
+  border: 1px solid rgb(0,0,0);
+  padding: 0 0.1rem !important;
+  border-radius: 60px 10px 60px 10px;
+}
+
+.btn-portfolio
+{
+  height: 2rem;
+  width: 8rem !important;
+  border: 1px solid var(--primary-white);
+  color: rgb(255, 255, 255);
+  background-color:rgb(59, 59, 59);
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-color: rgb(69,111,182,255);
+  padding: 0.35rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  transition: .5s ease-in-out;
+  text-decoration: none;
+  font-size: 8.5pt;
+}
+
+.btn-portfolio:hover
+{
+  width: 9rem !important;
+  text-decoration: none;
+  background-color: rgb(69,111,182,255);
+  transition: .5s ease-in-out;
+  color: var(--primary-white);
+}
+
+
+.carousel1-image
+{
+  border: 1px solid rgb(0,0,0);
+  padding: 0 0.1rem !important;
+  border-radius: 10px 60px 10px 60px;
+}
+
 
 /*************Media Queries***************/
 @media (max-width: 468px)

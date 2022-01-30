@@ -6,7 +6,7 @@ import Landing from "./components/Landing";
 import About from "./components/About";
 import Technologies from './components/Technologies';
 import Services from "./components/Services";
-import Portfolio from './components/Portfolio';
+import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
