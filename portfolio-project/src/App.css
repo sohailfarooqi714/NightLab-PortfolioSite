@@ -228,6 +228,7 @@ nav ul li
   text-align: justify;
   font-stretch: semi-expanded;
   animation: linear;
+  margin-bottom: 6rem;
 }
 
 /*************Services***************/
@@ -462,8 +463,7 @@ nav ul li
 
 .portfolio-wrapper
 {
-  background: var(--primary-lightgray);
-  padding: 3rem 0;
+  padding: 2.35rem 0;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -484,6 +484,15 @@ nav ul li
   font-weight: lighter;
   font-style: normal;
 }
+
+.portfolio-wrapper h6
+{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 .portfolio-wrapper .portfolio-image
 {
@@ -510,10 +519,18 @@ nav ul li
   border-radius: 60px 10px 60px 10px;
 }
 
+.carousel1-image
+{
+  border: 1px solid rgb(0,0,0);
+  padding: 0 0.1rem !important;
+  border-radius: 10px 60px 10px 60px;
+}
+
+
 .btn-portfolio
 {
   height: 2rem;
-  width: 8rem !important;
+  width: 5rem !important;
   border: 1px solid var(--primary-white);
   color: rgb(255, 255, 255);
   background-color:rgb(59, 59, 59);
@@ -535,15 +552,6 @@ nav ul li
   transition: .5s ease-in-out;
   color: var(--primary-white);
 }
-
-
-.carousel1-image
-{
-  border: 1px solid rgb(0,0,0);
-  padding: 0 0.1rem !important;
-  border-radius: 10px 60px 10px 60px;
-}
-
 
 /*************Media Queries***************/
 @media (max-width: 468px)
