@@ -27,13 +27,13 @@ export const Navbar = () => {
                             <Link smooth={true} to="Technologies" offset={-125} smooth={false} className="nav-link" href="#">Technologies</Link >
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="Portfolio" offset={-20} smooth={false} className="nav-link" href="#">Portfolio</Link >
+                            <Link smooth={true} to="Portfolio" offset={15} smooth={false} className="nav-link" href="#">Portfolio</Link >
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="About" offset={-10} smooth={false} className="nav-link" href="#">About</Link >
+                            <Link smooth={true} to="About" offset={-65} smooth={false} className="nav-link" href="#">About</Link >
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="Contact" className="nav-link" href="#">Contact</Link >
+                            <Link smooth={true} to="Contacts" smooth={false} className="nav-link" href="#">Contact</Link >
                         </li>
                     </ul>
                 </div>
