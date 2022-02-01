@@ -577,6 +577,8 @@ nav ul li
 {
   background: var(--primary-dark);
   padding: 3rem 0;
+  border-bottom-right-radius: 15%;
+  margin-right: 5pt;
 }
 
 .contacts h3
@@ -632,6 +634,7 @@ nav ul li
 
 .contact-btn
 {
+  margin-top: 1rem;
   margin: 1rem 0 0 0;
   width: 100%;
   background-color: rgb(139, 58, 58);
@@ -641,8 +644,8 @@ nav ul li
 
 .contact-btn:hover
 {
-  background-color: rgb(187, 77, 77);
-  transition: 0.75s ease-in-out;
+  background-color: rgb(214, 93, 93);
+  transition: 0.3s ease-in-out;
 }
 
 .line
