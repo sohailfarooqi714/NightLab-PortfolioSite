@@ -1,6 +1,10 @@
 import React from 'react'
 import PortfolioCarousel from "./PortfolioCarousel";
 import PortfolioCarousel1 from "./PortfolioCarousel1";
+import PortfolioCarousel2 from "./PortfolioCarousel2";
+import PortfolioCarousel3 from "./PortfolioCarousel3";
+
+
 
 
 
@@ -49,15 +53,59 @@ const Portfolio = () => {
                                             <br></br>
                                             <br></br>
 
-                                            1. Products Catalogue
-                                            <br></br>
-                                            2. Deals Catalogue
-                                            <br></br>
-                                            3. Checkout Page
-                                            <br></br>
-                                            4. Complete User Journey
+                                            This user interface design sample covers a product catalogues page consisting of item listings,
+                                            a deals page with grouped items as well as related/recommended products. A checkouts page with
+                                            complete payment functionality options as well as discount for vendors.
                                             </p>
-                                            <a href="#" className="btn-portfolio" align="center"> View </a>
+                                            <a  className="btn-portfolio" align="center"> View </a>
+                                        </div>
+                                </div>
+                                </div>
+
+                                {/*-*/}
+                                <div className="col-md-6 col-sm-12">
+                                    <h5 align="center">WEB WORK</h5>
+                                <div className="portfolio-image-box row justify-content-center" align="center">
+                                        <PortfolioCarousel2/>
+
+                                        <h6 align="center"><b>Web Development Samples</b></h6>
+
+                                        <br></br>
+
+                                        <div className="portfolio-description-box row justify-content-center">
+                                            <p align="center" > <b><i>The User interface design sample covers the following:</i></b>
+
+                                            <br></br>
+                                            <br></br>
+
+                                            Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
+                                            Lorem ipsum may be used as a placeholder before the final copy is available.
+                                            </p>
+                                            <a className="btn-portfolio" align="center"> Visit </a>
+                                        </div>
+                                </div>
+                                </div>
+
+                                {/*-*/}
+                                <div className="col-md-6 col-sm-12">
+                                    <h5 align="center">CONTENT CREATION</h5>
+                                <div className="portfolio-image-box row justify-content-center" align="center">
+                                        <PortfolioCarousel3/>
+
+                                        <h6 align="center"><b>Content Writing Samples</b></h6>
+
+                                        <br></br>
+
+                                        <div className="portfolio-description-box row justify-content-center">
+                                            <p align="center" > <b><i>The User interface design sample covers the following:</i></b>
+
+                                            <br></br>
+                                            <br></br>
+
+                                            Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
+                                            Lorem ipsum may be used as a placeholder before the final copy is available.
+                                            </p>
+                                            <a className="btn-portfolio" align="center"> Visit </a>
                                         </div>
                                 </div>
                                 </div>
