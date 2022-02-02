@@ -84,8 +84,8 @@ const Contacts = () => {
                                 name="description"
                             ></textarea>
                             <div className="line"></div>
-                            <button className="btn-main-offer contact-btn" type="submit"> Submit </button>
                             </div>
+                            <button className="btn-main-offer contact-btn" type="submit"> Submit </button>
                         </div>
                     </div>
                 </form>

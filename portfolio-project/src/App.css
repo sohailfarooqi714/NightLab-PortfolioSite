@@ -629,13 +629,12 @@ nav ul li
 
 .contacts textarea
 {
-  height: 12.2rem;
+  height: 12.2rem ;
 }
 
 .contact-btn
 {
-  margin-top: 1rem;
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
   width: 100%;
   background-color: rgb(139, 58, 58);
   border-radius: 0 0 0 0;
