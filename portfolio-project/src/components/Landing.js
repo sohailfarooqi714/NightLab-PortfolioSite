@@ -1,6 +1,7 @@
 import React from "react";
 import LandingImage from "../landing-image.png";
 
+
 export const Landing = () => {
     return (
         <div className="landing-wrapper">
@@ -15,7 +16,7 @@ export const Landing = () => {
                         <div className="landing-text">
                             <h6 className="landing-heading" align="center">We work through the clock, committed to delivering excellence.</h6>
                             <p className="landing-text" align="center">Night Lab is a team of trained and qualified individuals ready to deliver innovative solutions to their clients. 
-                            Our aim is to provide industry grade software design and development, digital media marketing and digital content creation.
+                            Our aim is to provide industry grade software design, development, digital media marketing and digital content creation.
                             </p>
                         </div>
                     </div>

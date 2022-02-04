@@ -578,9 +578,8 @@ nav ul li
 .contacts
 {
   background: var(--primary-dark);
-  padding: 3rem 0;
-  border-bottom-right-radius: 15%;
-  margin-right: 5pt;
+  padding: 2.5rem 0;
+  border-bottom-right-radius: 10%;
 }
 
 .contacts h3
@@ -613,7 +612,7 @@ nav ul li
   outline: 0 !important;
   box-shadow: none !important;
   top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
   padding-left: 0;
 }
 
@@ -674,6 +673,44 @@ textarea.form-control
 {
   margin: -0.3rem 0;
 }
+
+/*************Footer***************/
+
+.footer
+{
+  background-color: rgb(49, 49, 49);
+  color: rgb(145, 145, 145);
+  padding: 1rem;
+}
+
+.footer a
+{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+
+.footer a:hover
+{
+  text-decoration: none;
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+.footer p
+{
+  margin-bottom: 0;
+}
+
+.footer .footer-address
+{
+  margin-top: 1rem;
+}
+
+.footer .social-icons
+{
+  margin-top: 1rem;
+}
+
 /*************Media Queries***************/
 @media (max-width: 468px)
 {

@@ -48,7 +48,7 @@ const Portfolio = () => {
                                         <br></br>
 
                                         <div className="portfolio-description-box row justify-content-center">
-                                            <p align="center" > <b><i>The User interface design sample covers the following:</i></b>
+                                            <p align="center" > <b><i>The mobile user interface design experience sample covers the following:</i></b>
 
                                             <br></br>
                                             <br></br>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                                             a deals page with grouped items as well as related/recommended products. A checkouts page with
                                             complete payment functionality options as well as discount for vendors.
                                             </p>
-                                            <a  className="btn-portfolio" align="center"> View </a>
+                                            <a className="btn-portfolio" align="center"> View </a>
                                         </div>
                                 </div>
                                 </div>
@@ -81,7 +81,7 @@ const Portfolio = () => {
                                             Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
                                             Lorem ipsum may be used as a placeholder before the final copy is available.
                                             </p>
-                                            <a className="btn-portfolio" align="center"> Visit </a>
+                                            <a href="https://khatapp.com/" target="_blank" className="btn-portfolio" align="center"> Visit </a>
                                         </div>
                                 </div>
                                 </div>
