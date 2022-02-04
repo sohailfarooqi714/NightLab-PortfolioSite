@@ -181,6 +181,7 @@ nav ul li
   text-decoration: none;
   background-color: greenyellow;
   transition: .5s ease-in-out;
+  cursor: pointer;
 }
 
 /*****************About Me*****************/
