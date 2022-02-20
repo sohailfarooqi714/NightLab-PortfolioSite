@@ -1,13 +1,9 @@
 import React from 'react';
 import {
-    FacebookShareButton,
     FacebookIcon,
     TwitterShareButton,
     TwitterIcon,
-    LinkedinShareButton,
-    LinkedinIcon,
-    RedditShareButton,
-    RedditIcon
+    LinkedinIcon
 } from "react-share";
 
 const Footer = () => {
@@ -17,7 +13,7 @@ const Footer = () => {
                         <div className="footer-address col-md-6 col-sm-12 ">
                             <div className="d-flex justify-content-center" align="center">
                                 <p>
-                                    Apt B-1002 Alpine Plaza Block 10 Gulistan-e-Johar, Karachi, Pakistan
+                                    Karachi, Pakistan
                                 </p>
                             </div>
 
@@ -26,7 +22,7 @@ const Footer = () => {
                             </div>
 
                             <div className="d-flex justify-content-center">
-                                <p>sohailfarooqi714@gmail.com</p>
+                                <a href="mailto:sohailfarooqi714@gmail.com">sohailfarooqi714@gmail.com</a>
                             </div>
                         </div>
 
@@ -51,37 +47,17 @@ const Footer = () => {
 
                             <div className="social-icons col-md-6 col-sm-12 ">
                                 <div className="d-flex justify-content-center">
-                                        <FacebookShareButton 
-                                         url={""}
-                                         quote={"Software Developer"}
-                                         hashtag="#Dev/Design/Game"
-                                        > 
-                                            <FacebookIcon className="mx-3" size={36} />
-                                        </FacebookShareButton>
-
-                                        <TwitterShareButton 
-                                         url={""}
-                                         quote={"Software Developer"}
-                                         hashtag="#Dev/Design/Game"
-                                        > 
+                                            
+                                            <a href="https://www.facebook.com/sohail.a.faruqui" target="_blank">
+                                                <FacebookIcon className="mx-3" size={36} />
+                                                </a>
+                                            
                                             <TwitterIcon className="mx-3" size={36} />
-                                        </TwitterShareButton>
-
-                                        <LinkedinShareButton 
-                                         url={""}
-                                         quote={"Software Developer"}
-                                         hashtag="#Dev/Design/Game"
-                                        > 
-                                            <LinkedinIcon className="mx-3" size={36} />
-                                        </LinkedinShareButton>
-
-                                        <RedditShareButton 
-                                         url={""}
-                                         quote={"Software Developer"}
-                                         hashtag="#Dev/Design/Game"
-                                        > 
-                                            <RedditIcon className="mx-3" size={36} />
-                                        </RedditShareButton>
+                                       
+                                            <a href="https://www.linkedin.com/in/sohail-farooqi-4271111b2/" target="_blank">
+                                                <LinkedinIcon className="mx-3" size={36} />
+                                            </a>
+                                        
                                 </div>
                                 <p className="pt-3 text-center">
                                     Copyright&copy;

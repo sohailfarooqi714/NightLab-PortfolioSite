@@ -73,13 +73,13 @@ const Portfolio = () => {
                                         <br></br>
 
                                         <div className="portfolio-description-box row justify-content-center">
-                                            <p align="center" > <b><i>The User interface design sample covers the following:</i></b>
+                                            <p align="center" > <b><i>Manage your Business & Personal ledgers on your phone.</i></b>
 
                                             <br></br>
                                             <br></br>
 
-                                            Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. 
-                                            Lorem ipsum may be used as a placeholder before the final copy is available.
+                                            KhataApp is 100% free, safe, and secure application which provides a platform to businesses and individuals to maintain and track their current and historical credit(udhar) book in a simpler manner.
+                                            Digital Pakistan ka Digital KhataApp
                                             </p>
                                             <a href="https://khatapp.com/" target="_blank" className="btn-portfolio" align="center"> Visit </a>
                                         </div>
