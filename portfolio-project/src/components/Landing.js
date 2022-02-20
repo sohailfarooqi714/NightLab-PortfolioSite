@@ -14,7 +14,7 @@ export const Landing = () => {
                     </div>
                     <div className="col-lg-6 col-xm-12">
                         <div className="landing-text">
-                            <h6 className="landing-heading" align="center">We work through the clock, committed to delivering excellence.</h6>
+                            <h6 className="landing-heading" align="center">We work round the clock, committed to delivering excellence.</h6>
                             <p className="landing-text" align="center">Night Lab is a team of trained and qualified individuals ready to deliver innovative solutions to their clients. 
                             Our aim is to provide industry grade software design, development, digital media marketing and digital content creation.
                             </p>
