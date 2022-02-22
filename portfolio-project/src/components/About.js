@@ -1,5 +1,7 @@
 import React from "react";
 import author from "../me.png";
+import aboutbg from "../game-dev.png";
+
 
 
 function About() {
