@@ -223,7 +223,7 @@ nav ul li
   border-radius: 50%;
   padding: 1rem;
   margin-top: 2rem;
-  border: 2px solid rgb(69,111,182,255);
+  border: 5px solid rgb(193, 18, 209);
 }
 
 .about-heading
@@ -559,9 +559,6 @@ nav ul li
   padding: 0 0.1rem !important;
   border-radius: 10px 60px 10px 60px;
 }
-
-
-
 
 .btn-portfolio
 {
