@@ -198,7 +198,7 @@ nav ul li
   background-size: cover;
   background-repeat: repeat;
   background-position:center;
-  background-color: rgb(142, 175, 199);
+  background-color: rgb(93, 93, 93);
 }
 
 .photo-wrap
@@ -230,7 +230,7 @@ nav ul li
 .persona1-description 
 {
   color: rgb(236, 229, 229);
-  margin-top: 1rem;
+  margin-top: 1.8rem;
   margin-right: 1rem;
   margin-left: 1rem;
   text-align: justify;
@@ -585,6 +585,7 @@ nav ul li
   background: var(--primary-dark);
   padding: 2.5rem 0;
   border-bottom-right-radius: 10%;
+  margin-bottom: -4rem;
 }
 
 .contacts h3
@@ -598,7 +599,7 @@ nav ul li
 .contacts p
 {
   color: rgb(219, 224, 255);
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: lighter;
 }
 
@@ -635,13 +636,14 @@ nav ul li
 
 .contacts textarea
 {
-  height: 12.2rem ;
+  height: 15.2rem ;
+  margin-top: 20rem;
 }
 
 .contact-btn
 {
-  margin: 2rem 0 0 0;
-  width: 100%;
+  margin: 3rem 0 0 0;
+  width: 40%;
   background-color: rgb(139, 58, 58);
   border-radius: 0 0 0 0;
   border: solid 0.125rem rgb(139, 58, 58);
@@ -651,6 +653,14 @@ nav ul li
 {
   background-color: rgb(214, 93, 93);
   transition: 0.3s ease-in-out;
+}
+
+.contacts .ui-message-success
+{
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
 }
 
 .line

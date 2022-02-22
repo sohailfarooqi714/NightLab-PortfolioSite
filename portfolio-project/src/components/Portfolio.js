@@ -68,7 +68,7 @@ const Portfolio = () => {
                                 <div className="portfolio-image-box row justify-content-center" align="center">
                                         <PortfolioCarousel2/>
 
-                                        <h6 align="center"><b>Web Development Samples</b></h6>
+                                        <h6 align="center"><b>Khata App</b></h6>
 
                                         <br></br>
 
