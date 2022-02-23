@@ -219,10 +219,10 @@ nav ul li
 
 .profile-img
 {
-  width: 24rem;
+  width: 19.5rem;
   border-radius: 50%;
   padding: 1rem;
-  margin-top: 2rem;
+  margin-top: 1.9rem;
   border: 5px solid rgb(193, 18, 209);
 }
 
@@ -248,6 +248,32 @@ nav ul li
   font-stretch: semi-expanded;
   animation: linear;
   margin-bottom: 9.2rem;
+}
+
+.btn-resume
+{
+  height: 2rem !important;
+  width: 5rem ;
+  border: 1px solid var(--primary-white);
+  color: rgb(255, 255, 255);
+  background-color:rgb(59, 59, 59);
+  text-transform: uppercase;
+  border-radius: 10px;
+  border-color: rgb(178, 63, 224);
+  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
+  margin: 2rem;
+  transition: .5s ease-in-out;
+  text-decoration: none;
+  font-size: 8.5pt;
+}
+
+.btn-resume:hover
+{
+  width: 9rem !important;
+  text-decoration: none;
+  background-color: rgb(178, 63, 224);
+  transition: .5s ease-in-out;
+  color: rgb(255, 255, 255);
 }
 
 /*************Services***************/
@@ -485,7 +511,7 @@ nav ul li
   padding: 2.35rem 0;
   margin-right: 2rem;
   margin-left: 2rem;
-  background-color: rgb(236, 237, 243);
+  background-color: rgba(234, 234, 243, 0.829);
 }
 
 .portfolio-wrapper h3

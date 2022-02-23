@@ -1,8 +1,5 @@
 import React from "react";
 import author from "../me.png";
-import aboutbg from "../game-dev.png";
-
-
 
 function About() {
   return (
@@ -15,7 +12,10 @@ function About() {
                     <div className="col-lg-6 col-xm-12">
                         <div className="photo-wrap mb-3">
                             <img className="profile-img" src={author} alt="author.." />
-                        </div>     
+                        </div>   <br/>  
+                                <div className="text-center">
+                                    <a href="https://drive.google.com/uc?export=download&id=1I7CgFVmz5X9Kave3Rsx3uPAj_WW1l08J" className="btn-resume" align="center"> Resume / CV </a>
+                                </div>
                     </div>
                     <div className="col-lg-6 col-xm-12">
                         <div className="persona1-description">
