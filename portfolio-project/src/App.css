@@ -252,16 +252,17 @@ nav ul li
 
 .btn-resume
 {
-  height: 2rem !important;
-  width: 5rem ;
+  display: inline-block;
+  height: 2.4rem;
+  width: 7rem;
   border: 1px solid var(--primary-white);
   color: rgb(255, 255, 255);
   background-color:rgb(59, 59, 59);
   text-transform: uppercase;
   border-radius: 10px;
   border-color: rgb(178, 63, 224);
-  padding: 0.75rem 0.75rem 0.75rem 0.75rem;
-  margin: 2rem;
+  padding: 0.6rem 0.75rem 0.75rem 0.75rem;
+  margin-top: 0.6rem;
   transition: .5s ease-in-out;
   text-decoration: none;
   font-size: 8.5pt;
@@ -269,9 +270,10 @@ nav ul li
 
 .btn-resume:hover
 {
-  width: 9rem !important;
+  width: 9rem;
   text-decoration: none;
   background-color: rgb(178, 63, 224);
+  border: 1.5px solid rgb(168, 168, 168);
   transition: .5s ease-in-out;
   color: rgb(255, 255, 255);
 }

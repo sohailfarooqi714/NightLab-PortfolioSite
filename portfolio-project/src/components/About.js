@@ -12,9 +12,9 @@ function About() {
                     <div className="col-lg-6 col-xm-12">
                         <div className="photo-wrap mb-3">
                             <img className="profile-img" src={author} alt="author.." />
-                        </div>   <br/>  
+                        </div>    
                                 <div className="text-center">
-                                    <a href="https://drive.google.com/uc?export=download&id=1I7CgFVmz5X9Kave3Rsx3uPAj_WW1l08J" className="btn-resume" align="center"> Resume / CV </a>
+                                    <a href="https://drive.google.com/uc?export=download&id=1uAoSfEdak6y977hsmC-oi1zNNYWhtGFu" className="btn-resume" align="center">Resume / CV </a>
                                 </div>
                     </div>
                     <div className="col-lg-6 col-xm-12">
